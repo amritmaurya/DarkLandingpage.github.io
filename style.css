@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(bg.jpg);
+    overflow: hidden;
+}
+section .nav{
+    display: flex;
+    top: 0rem;
+    left: 5rem;
+
+}
+section .nav .logo img{
+    height: 3rem;
+    width: 6rem;
+    margin-left: 5rem;
+    margin-top: 2.4rem;
+
+}
+section .nav a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 3em;
+    padding-left: 4rem;
+    opacity: 0.8;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+section .nav a:hover{
+    color:rgb(245, 245, 32) ;
+    
+}
+section .nav .search{
+    position: absolute;
+    top: 2rem;
+    right:-8rem;
+}
+section .nav .search1{
+    position: absolute;
+    top: 2rem;
+    right: 10rem;
+}
+section .nav .search1 img{
+    width: 5rem;
+    height: 4rem;
+    background-color: rgb(29, 28, 28);
+}
+section .nav .search input{
+    background-color: rgb(245, 245, 32);
+    height: 4rem;
+    width: 18rem;
+    border: none;
+    outline: none;
+}
+section .content{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .content p{
+    color: rgb(228, 225, 225);
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+section .content h3{
+    color: #fff;
+    position: absolute;
+    top: 10rem;
+    right: 7rem;
+   
+   opacity: 0.5;
+    font-size: 1.2rem;
+    
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+    
+}
+section .content h1{
+    color: rgb(245, 245, 32);
+    text-shadow: 10px 10px 40px rgb(245, 245, 32);
+    position: absolute;
+    top: 10rem;
+    left: 11rem;
+    font-size: 11rem;
+    letter-spacing: 11rem;
+}
+section .bg2{
+    position: relative;
+    bottom:-45px;
+    left: 24rem;
+    z-index: 11111;
+}
+section .bg2 img{
+    height: 31rem;
+    width: 51rem;
+}
+section .bg3{
+    position: absolute;
+    background-color: rgb(245, 245, 32);
+    bottom: -5rem;
+    left: -1rem;
+    width: 40rem;
+    height: 8rem;
+    
+}
+section .content2{
+    position: absolute;
+    right: 6.5rem;
+    bottom: 10rem;
+}    
+section .content3{
+    position: absolute;
+    right: 29rem;
+    bottom: 2rem;
+}    
+section .content4{
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+}    
+section .content2 p{
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+section .content3 h5{
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    
+}
+section .content4 h5{
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    
+}
+section .content3 p{
+    color: #fff;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    
+}
+section .content4 p{
+    color: #fff;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    
+}
+section .content5{
+    position: absolute;
+    left: 6rem;
+    bottom: 9rem;
+}
+section .content5 h5{
+    color: #fff;
+    opacity: 0.5;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
