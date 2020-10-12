@@ -7,6 +7,7 @@
 body{
     background-image: url(bg.jpg);
     overflow: hidden;
+   
 }
 section .nav{
     display: flex;
@@ -28,6 +29,7 @@ section .nav a{
     padding-left: 4rem;
     opacity: 0.8;
     font-weight: 600;
+    font-style:italic;
     text-transform: uppercase;
 }
 section .nav a:hover{
